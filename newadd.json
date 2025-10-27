@@ -1,0 +1,2 @@
+const total = contributors.length;
+const longestHandle = contributors.reduce((a, b) => a.handle.length > b.handle.length ? a : b);
